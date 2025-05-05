@@ -1,0 +1,16 @@
+[package]
+name = "neuralnetwork"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ndarray = "0.15"
+csv = "1.1"
+linfa = "0.6.1"
+plotters = "0.3"
+rand = "0.8"
+eframe = "0.24"
+egui = "0.24"
+egui_plot = "0.24"
+winapi = { version = "0.3", features = ["winuser"] }
+qmetaobject = "0.2"
